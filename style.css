@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+header {
+    width: 100%;
+    line-height: 20vh;
+    background-color: Black;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom: 8px solid white;
+
+}
+
+h1 {
+    font-family: cursive;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    word-spacing: 10px;
+    text-shadow: 0 2px 0 gold,
+        0 5px 0 green,
+        0 7px 0 purple,
+        0 10px 0 red,
+        0 30px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+section {
+    height: 80vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: indigo;
+
+
+}
+
+.GameArea {
+    width: 50%;
+    height: 400px;
+    padding: 20px 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box: 0 20px 20px -9px black;
+    border-radius: 20px;
+    border: 15px solid yellow;
+
+}
+
+.start {
+
+    font-size: 35px;
+    color: lavender;
+    transform: translate(0, -30px);
+}
+
+
+input {
+
+    width: 55%;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    background-color: white;
+    color: black;
+    margin-bottom: 35px;
+    font-size: 1.4rem;
+}
+
+
+button {
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+    border: 1px blue;
+    text-decoration: none;
+    margin-top: 10px;
+    color: #ebe64b;
+    border-radius: 500px;
+}
+
+button.btn {
+    font-weight: 600;
+    padding: 1rem 2rem;
+    background: green;
+    text-transform: uppercase;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: cubic-bezier(0.65, -0.25, 0.25, 1.95);
+}
+
+button.btn:hover,
+button.btn:active,
+button.btn:focus {
+    letter-spacing: 0.125rem;
+    word-spacing: 0.2rem;
+}
+
+.score {
+    font-size: 30px;
+    padding: 10px 0;
+    transform: translate(0, -30px);
+    color: coral;
+    text-transform: uppercase;
+    text-emphasis-style: circle;
+}
+
+.score-1 {
+    color: aqua;
+}
+
+.hidden {
+    display: none;
+}
